@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Подробнее о туре</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="main-header">
+    <h1 id="destination-title">Париж, Франция</h1>
+    <nav id="main-nav">
+      <a href="store.html" class="nav-link">Назад к турам</a>
+    </nav>
+  </header>
+
+  <main id="destination-content">
+    <img src="https://source.unsplash.com/800x400/?paris" alt="Париж" class="destination-image">
+    
+    <section class="destination-info">
+      <h2 class="section-title">Описание</h2>
+      <p class="description-text">
+        Париж — столица Франции и один из самых романтичных городов мира. Эйфелева башня, Лувр, Монмартр — всё это ждёт вас!
+      </p>
+
+      <h3 class="section-subtitle">Что включено:</h3>
+      <ul class="included-list">
+        <li>Авиаперелёт</li>
+        <li>Гостиница 3* (5 ночей)</li>
+        <li>Завтраки</li>
+        <li>Экскурсии</li>
+      </ul>
+
+      <p class="tour-price"><strong>Стоимость: от 500€</strong></p>
+      <button id="book-button">Забронировать тур</button>
+    </section>
+  </main>
+
+  <footer id="main-footer">
+    <p>© 2025 Турагентство "Планета"</p>
+  </footer>
+</body>
+</html>
