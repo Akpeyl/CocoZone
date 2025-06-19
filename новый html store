@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Каталог туров</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header id="main-header">
+    <h1 id="site-title">Туры по всему миру</h1>
+    <nav id="main-nav">
+      <a href="store.html" class="nav-link">Главная</a>
+    </nav>
+  </header>
+
+  <main id="store-content">
+    <div class="tour-card">
+      <img src="https://source.unsplash.com/400x300/?paris" alt="Париж" class="tour-image">
+      <h2 class="tour-title">Париж, Франция</h2>
+      <p class="tour-price">От 500€</p>
+      <a href="destination_template.html" class="details-link">Подробнее</a>
+    </div>
+
+    <div class="tour-card">
+      <img src="https://source.unsplash.com/400x300/?tokyo" alt="Токио" class="tour-image">
+      <h2 class="tour-title">Токио, Япония</h2>
+      <p class="tour-price">От 850€</p>
+      <a href="destination_template.html" class="details-link">Подробнее</a>
+    </div>
+
+    <div class="tour-card">
+      <img src="https://source.unsplash.com/400x300/?egypt" alt="Каир" class="tour-image">
+      <h2 class="tour-title">Каир, Египет</h2>
+      <p class="tour-price">От 400€</p>
+      <a href="destination_template.html" class="details-link">Подробнее</a>
+    </div>
+  </main>
+
+  <footer id="main-footer">
+    <p>© 2025 Турагентство "Планета"</p>
+  </footer>
+</body>
+</html>
